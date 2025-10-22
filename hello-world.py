@@ -1,4 +1,6 @@
 print("Hello World")
 
-name = input("What is your name?")
-print("hello" + name)
+first_name = input("What is your first name?")
+last_name = input("What is your last name?")
+
+print(f"Hello {first_name} {last_name}")
